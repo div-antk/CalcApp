@@ -23,6 +23,9 @@ class ViewController: UIViewController {
   @IBAction func doAction(_ sender: Any) {
     carModel.drive()
     carModel.move(toBack: "ウシロニ・イキマス")
+
+    let total = carModel.plusAndMinus(num1: carModel.frontWheel, num2: carModel.rearWheel)
+    print("タイヤの合計数は\(total)")
   }
 }
 
