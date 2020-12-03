@@ -21,6 +21,7 @@ class Car {
     print("ウンテンカイシシマス")
     print("前輪 \(frontWheel)")
     print("後輪 \(rearWheel)")
+  
   }
   
   func move(toBack:String) {

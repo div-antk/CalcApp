@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 
   @IBAction func doAction(_ sender: Any) {
     carModel.drive()
+    carModel.move(toBack: "ウシロニ・イキマス")
   }
-  
 }
 
